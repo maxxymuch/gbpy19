@@ -35,6 +35,7 @@ class Matrix:
                 self._my_add_list[i][j] = self._my_list_in_list[i][j] + other._my_list_in_list[i][j]
         print("\n".join(str(el) for el in self._my_add_list))
 
+##############------------ MAIN-------------------###############
 
 matrix1 = Matrix(5, 5)
 print(matrix1)
@@ -45,7 +46,7 @@ print("\nСумма элементов матриц\n")
 matrix1 + matrix2
 
 
-##############------------ NUMPY-------------------###############333
+##############------------ NUMPY-------------------###############
 
 class NuMatrix:
     def __init__(self, n):
