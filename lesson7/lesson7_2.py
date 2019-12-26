@@ -51,7 +51,7 @@ class MySuit(MyAbstractClothes):
     def calc(self):
         return 2 * self.height + 0.3
 
-###############------------ MAIN-------------------###############
+##############------------ MAIN-------------------###############
 
 coat = MyCoat(36)
 print("Нужно ткани для пошива пальто", coat.calc())
