@@ -62,7 +62,7 @@ class Cell:
             return 'Вид не может убить себя изнутри ,)'
 
     def __mul__(self, other):
-        return Cell(int(self.n * other.n))  
+        return Cell(int(self.n * other.n))
 
     def __truediv__(self, other):
         return Cell(round(self.n // other.n))
